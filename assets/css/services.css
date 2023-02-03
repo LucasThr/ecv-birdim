@@ -1,0 +1,92 @@
+.serv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 'auto';
+  padding: 60px 0;
+}
+
+.serv p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+  max-width: 38rem;
+  text-align: center;
+}
+
+.serv .gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.serv .carre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 150px;
+  border: 1px solid #e1e1e1;
+}
+
+.serv .gallery span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.serv .carre img {
+  width: 76px;
+  height: 66px;
+}
+
+.serv .title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.serv .title .blue {
+  color: #00a8ff;
+}
+
+.serv h2 {
+  text-align: center;
+}
+
+.serv h2 strong {
+  position: relative;
+}
+
+.serv h2 strong ::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  top: 50%;
+  right: -18px;
+  position: absolute;
+  background-color: #ff5a00;
+  transform: translateY(-50%);
+}
+.serv h2 strong ::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: -18px;
+  position: absolute;
+  background-image: url(../images/dove-orange.png);
+}
